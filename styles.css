@@ -1,0 +1,143 @@
+body {
+  font-size: 40px;
+  color: #fff;
+  background-color: #6F837D;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+  background-color: #836F75;
+}
+.navbar-brand {
+  padding-top: 0px
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-shadow: black 1px 0 10px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+.navbar-brand a h1:hover, .navbar-brand a h1:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #836F75;
+  font-size: .6em;
+}
+.navbar header {
+  height: auto;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+#descriptions section {
+  font-size: .8em;
+  text-align: center;
+  text-shadow: 2px 2px 2px #222;
+  margin: 10px 0px 5px 0px;
+}
+#descriptions p {
+  font-size: .6em;
+  text-align: left;
+  text-shadow: 2px 2px 2px #222;
+  margin: 5px;
+}
+
+#descriptions {
+  padding: 10px;
+  margin: 20px;
+  background: #92A8A1;
+  border-radius: 20px;
+  border: 5px solid #836F75;
+}
+
+.text-center {
+  text-shadow: 2px 2px 2px #222;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1200px) {
+  .navbar-brand {
+    padding-top: 10px;
+    height: 100px;
+  }
+  .navbar-brand h1 {
+    /* padding-top: 20px; */
+    font-size: 3vw;
+  }
+  #collapsable-nav {
+    position: absolute;
+    left: -999em;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-header {
+    height: auto;
+  }
+  .navbar-brand {
+    padding-top: 10px
+  }
+  #collapsable-nav {
+    position: absolute;
+    left: -999em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-header {
+    height: auto;
+  }
+  .navbar-brand {
+    padding-top: 10px;
+
+  }
+
+  #collapsable-nav  {
+    position: absolute;
+    left: -999em;
+  }
+  .text-align {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 {
+    /* padding-top: 10px; */
+    /* font-size: 6vw; */
+  }
+  #collapsable-nav a {
+    font-size: .6em;
+    color: #fff;
+    border: medium solid black;
+    margin: 1px;
+    width: 100%
+
+  }
+  #collapsable-nav {
+    width: 100%
+    background: #6F837D;
+  }
+  #descriptions p {
+    font-size: .4em;
+
+}
